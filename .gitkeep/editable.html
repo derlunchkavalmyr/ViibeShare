@@ -516,12 +516,8 @@ input.chk-btn:checked+label {box-shadow: 0px 0px 3px inset; background: #8cc472;
             
             
             
-        <div data-silex-type="text-element" class="editable-style silex-id-1583421303219-28 text-element page-host-event paged-element" data-silex-id="silex-id-1583421303219-28" style="" data-silex-href="#!page-find-or-host"><div class="silex-element-content normal"><p>Event</p><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div><div data-silex-type="html-element" class="editable-style silex-id-1583421060254-27 html-element page-host-event paged-element" data-silex-id="silex-id-1583421060254-27" style=""><div class="silex-element-content">
-
-
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>body, html {height: 100%; font-family: Arial, Helvetica, sans-serif;}* {box-sizing: border-box;}.container {position: absolute; right: 0; margin: 1px; max-width: 400px; padding: 32px; background-color: white;}input[type=text], input[type=password] {width: 100%; padding: 15px; margin: 6px 0 20px 0; border: none; background: #f4f1fa;}input[type=text]:focus, input[type=password]:focus {background-color: #ddd; outline: none;}.btn {background-color: #800080; color: white; padding: 16px 20px; border: none; cursor: pointer; width: 100%; opacity: 0.9;}.btn:hover {opacity: 1;}</style>
+        <div data-silex-type="text-element" class="editable-style silex-id-1583421303219-28 text-element page-host-event paged-element" data-silex-id="silex-id-1583421303219-28" style="" data-silex-href="#!page-find-or-host"><div class="silex-element-content normal"><p>Event</p><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div><div data-silex-type="html-element" class="editable-style silex-id-1583421060254-27 html-element page-host-event paged-element" data-silex-id="silex-id-1583421060254-27" style=""><div class="silex-element-content"><meta name="viewport" content="width=device-width, initial-scale=1">
+<style>body, html {height: 100%; font-family: Arial, Helvetica, sans-serif;}* {box-sizing: border-box;}.container {position: absolute; right: 0; margin: 1px; max-width: 400px; padding: 32px; background-color: white;}input[type=text], input[type=password] {width: 100%; padding: 15px; margin: 6px 0 20px 0; border: none; background: #f4f1fa;}input[type=text]:focus, input[type=password]:focus {background-color: #ddd; outline: none;}.btn {background-color: #6742ac; color: white; padding: 16px 20px; border: none; cursor: pointer; width: 100%; opacity: 1;}.btn:hover {opacity: 0.9;}</style>
 
  
 
@@ -529,21 +525,24 @@ input.chk-btn:checked+label {box-shadow: 0px 0px 3px inset; background: #8cc472;
   <form action="/action_page.php" class="container">
     <center><h1>Host an Event</h1></center>
 
-    <label for="firstname"><b>Title</b></label>
-    <input type="text" placeholder="Title" name="email" required="">
+    <label for="title"><b>Title</b></label>
+    <input type="text" placeholder="Title" name="title" required="">
     
-    <label for="firstname"><b>Location:</b></label>
-    <input type="text" placeholder="Location" name="username" required="">
+    <label for="location"><b>Location:</b></label>
+    <input type="text" placeholder="Street Address, City, State, Zip Code" name="location" required="">
+    
+  	<label for="quantity"><b>Max Attendence:</b></label>
+  	<input type="number" id="quantity" name="quantity" min="1" max="500"> <br>
+    <br>
 
-        <label for="firstname"><b>Other:</b></label>
-    <input type="text" placeholder="Other" name="username" required="">
+     <label for="firstname"><b>Details:</b></label>
+    <input type="text" placeholder="Dress Code, RSVP, Links etc" name="username" required="">
 
 
 
-    <button type="submit" class="btn">C </button>
+    <button type="submit" class="btn">Create New Event</button>
   </form>
 </div>
-
 
 </div></div><div data-silex-type="html-element" class="editable-style silex-id-1583255350219-19 html-element page-log-in paged-element" data-silex-id="silex-id-1583255350219-19" style=""><div class="silex-element-content">
 
